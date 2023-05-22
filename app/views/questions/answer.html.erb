@@ -1,6 +1,13 @@
-<h1>Stupid Coaching</h1>
-<h2><%= @result %> </h2>
-<h3>- You</h3>
+<h1 class="title">Stupid Coaching</h1>
 
+<div class="card">
+<h2><%= @question %> </h2>
+<p>- You</p>
+</div>
+
+<div class="card">
 <h2><%= @answer %> </h2>
-<h3>- Your coach</h3>
+<p>- Your coach</p>
+</div>
+
+<button class="btn btn-primary button" id="answer"><%= link_to "Say something else", ask_path %></button>

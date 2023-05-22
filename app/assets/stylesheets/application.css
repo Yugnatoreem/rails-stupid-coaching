@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+
+ .button {
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px black;
+ }
+
+ .form {
+  margin-top: 30px;
+ }
+
+ .card {
+  padding: 5px;
+  margin: 10px;
+  background-color: yellow;
+ }
+
+ #answer {
+  margin-left: 10px;
+  color: blanchedalmond;
+ }
+
+ .title {
+  margin: 5px;
+ }
